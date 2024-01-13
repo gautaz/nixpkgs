@@ -21,7 +21,7 @@ lib.makeScope newScope (
         #root = "/run/nvidia/driver";
         #path = "/usr/bin/nvidia-container-cli";
         environment = [ ];
-        #debug = "/var/log/nvidia-container-runtime-hook.log";
+        debug = "/var/log/nvidia-container-runtime-hook.log";
         ldcache = "/tmp/ld.so.cache";
         load-kmods = true;
         #no-cgroups = false;
